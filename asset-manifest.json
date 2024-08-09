@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/https//amalkannur.github.io/Vivid-Travels/static/css/main.f3455085.css",
+    "main.js": "/https//amalkannur.github.io/Vivid-Travels/static/js/main.dc4ed998.js",
+    "static/js/453.ed3810f9.chunk.js": "/https//amalkannur.github.io/Vivid-Travels/static/js/453.ed3810f9.chunk.js",
+    "static/media/northindia.jpg": "/https//amalkannur.github.io/Vivid-Travels/static/media/northindia.fe1b2b8842a78c892f81.jpg",
+    "static/media/dubai-image-1.jpg": "/https//amalkannur.github.io/Vivid-Travels/static/media/dubai-image-1.ba5b2c8011b625d46b8d.jpg",
+    "static/media/himalayas.jpg": "/https//amalkannur.github.io/Vivid-Travels/static/media/himalayas.3772d57c07181430937f.jpg",
+    "static/media/newdelhi_img1.png": "/https//amalkannur.github.io/Vivid-Travels/static/media/newdelhi_img1.ce59980e181208e87e18.png",
+    "static/media/servicesBG.jpg": "/https//amalkannur.github.io/Vivid-Travels/static/media/servicesBG.b53804bbdfb418e1d051.jpg",
+    "static/media/planning_bg.png": "/https//amalkannur.github.io/Vivid-Travels/static/media/planning_bg.44d763031e0fbb0cfe1b.png",
+    "static/media/airplane.png": "/https//amalkannur.github.io/Vivid-Travels/static/media/airplane.d6c7f527a3ccd4c7cf01.png",
+    "static/media/slick.svg": "/https//amalkannur.github.io/Vivid-Travels/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/https//amalkannur.github.io/Vivid-Travels/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/https//amalkannur.github.io/Vivid-Travels/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/https//amalkannur.github.io/Vivid-Travels/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/https//amalkannur.github.io/Vivid-Travels/index.html",
+    "main.f3455085.css.map": "/https//amalkannur.github.io/Vivid-Travels/static/css/main.f3455085.css.map",
+    "main.dc4ed998.js.map": "/https//amalkannur.github.io/Vivid-Travels/static/js/main.dc4ed998.js.map",
+    "453.ed3810f9.chunk.js.map": "/https//amalkannur.github.io/Vivid-Travels/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3455085.css",
+    "static/js/main.dc4ed998.js"
+  ]
+}

@@ -45,8 +45,19 @@
         text-align: center;
     }
     .slide-1{ 
-        
         background:linear-gradient(0deg, rgba(0, 47, 255, 0.3), rgba(0, 217, 255, 0.3)), url("../../assets//images/dubai-image-1.jpg");
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .slide-2{ 
+        background:linear-gradient(0deg, rgba(0, 47, 255, 0.3), rgba(0, 217, 255, 0.3)), url("../../assets//images/himalayas.jpg");
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .slide-3{ 
+        background:linear-gradient(0deg, rgba(0, 47, 255, 0.3), rgba(0, 217, 255, 0.3)), url("../../assets//images/northindia.jpg");
         background-size:cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -56,8 +67,65 @@
 
 .Tours{ 
     text-align: center;
+
+    .slick-dots li button:before {
+       display: none;
+    }
+    .slick-arrow  {
+        display: none !important; 
+    }
+  
     h1{ 
         color: #35B2BA;
+    }
+    .card{ 
+        text-align: left;
+        box-shadow: 0px 4px 18px -5px rgba(153,153,153,1);
+        .content-div{ 
+            text-align: center;
+            width: 90%; 
+            margin: auto; 
+            margin-top: -24px;
+            .destination_hdr{ 
+                background-color: #fff;
+                padding:  10px;
+        
+                h4{ 
+                    font-weight: 600;
+                    line-height: 1;
+                    margin: 0;
+                }
+            }
+            .offer_div{ 
+                background-color: #35B2BA;
+                padding:  10px;
+            
+                h5{ 
+                    color: white;
+                    margin: 0;
+                }
+            }
+        }
+
+        .rating_h4{ 
+            color: #FFC451;
+            font-weight: 600;
+            font-size: 20px;
+        }
+        .description_p{ 
+            color: #535353;
+        }
+        .seamore_btn{ 
+            border-radius: 6px;
+            border: 1px solid #35B2BA;
+            color: #35B2BA;
+            background-color: white;
+            line-height: 36px;
+            height: 36px;
+            margin-left: auto;
+            width: 120px;
+        }
+
     }
 }
 
@@ -162,8 +230,54 @@ position: relative;
 }
 
 .Review{ 
-    text-align: center;
+    text-align: left;
+    h5{ 
+        color: #B7B0B0; 
+        font-size: 18px;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    h1{ 
+        font-size: 36px;
+        color: #35B2BA;
+    }
+    .grey_text{ 
+        color: #929090;
+    }
+
+    .card-review{ 
+        padding: 18px 12px;
+        box-shadow: 0px 4px 18px -5px rgba(153,153,153,1);
+    }
     
+}
+
+.Planning{ 
+    text-align: center;
+    padding: 80px 0 200px 0; 
+    background: url("../../assets/images/planning_bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    h1{ 
+        color: #35B2BA;
+    }
+    p{ 
+        font-size: 16px;
+    }
+    button{ 
+        background: #35B2BA; 
+        color: white; 
+        border: 0; 
+        line-height: 40px; 
+        height: 40px;
+        padding: 0px 18px;
+        border-radius: 4px;
+        transition: all 200ms ease-in;
+        &:hover{ 
+            background: #3cc5cf;
+        }
+    }
 }
 
 @media screen and (max-width:600px) {

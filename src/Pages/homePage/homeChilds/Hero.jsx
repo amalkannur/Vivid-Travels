@@ -10,7 +10,7 @@ export default function SimpleSlider() {
     infinite: true,
     speed: 800,
     slidesToShow: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 3200,
     slidesToScroll: 1,
   };
@@ -24,11 +24,26 @@ export default function SimpleSlider() {
                 <button className=' yellow-btn' href=""> View Packages</button>
             </div>
         </div>
+
+
      
      
-      <div>
-        <h3>2</h3>
-      </div>
+         <div className="carousel-item active  slide-2">
+            <div className="slide-content"> 
+                <h1> Embracing the call of the mountains  </h1>
+                <button className=' yellow-btn' href=""> View Packages</button>
+            </div>
+        </div>
+
+        <div className="carousel-item active  slide-3">
+            <div className="slide-content"> 
+                <h1> Adventure and Wanderlust await  </h1>
+                <button className=' yellow-btn' href=""> View Packages</button>
+            </div>
+        </div>
+
+
+        
     
     </Slider>
   );

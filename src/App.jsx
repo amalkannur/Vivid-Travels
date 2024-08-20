@@ -9,7 +9,9 @@ import Countries from './Pages/countriesPage/Countries'
 
 function  App() {
   return (
-   <BrowserRouter > 
+   <div className='main'> 
+   <h1> Demo test </h1>
+     <BrowserRouter > 
     <Routes > 
       <Route index  element ={<Home />} />
       <Route path='/about'  element ={ <About />} />
@@ -18,6 +20,8 @@ function  App() {
       <Route path= "/contact" element={<Contact />} /> 
     </Routes>
    </BrowserRouter>
+   </div>
+  
   )
 }
 export default  App

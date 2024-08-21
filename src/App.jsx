@@ -12,8 +12,10 @@ import Admin from './Pages/adminPage/Admin'
 
 
 function  App() {
+
   return (
    <div className='main'> 
+   <h1> Demo </h1>
      <Router > 
       <Routes > 
         <Route index  element ={<Home />} />
